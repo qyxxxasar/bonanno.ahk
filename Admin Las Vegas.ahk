@@ -401,7 +401,6 @@ IniWrite, %Radio13%, %A_ScriptDir%\res\Settings.ini, Login Commands, /chide
 IniWrite, %Radio14%, %A_ScriptDir%\res\Settings.ini, Login Commands, /zzdebug
 IniWrite, %Radio15%, %A_ScriptDir%\res\Settings.ini, Login Commands, /objdl
 IniWrite, %Radio16%, %A_ScriptDir%\res\Settings.ini, Login Commands, /netstat
-
 IniWrite, %Hot1%, %A_ScriptDir%\res\Settings.ini, Binds, KEY1
 IniWrite, %Hot2%, %A_ScriptDir%\res\Settings.ini, Binds, KEY2
 IniWrite, %Hot3%, %A_ScriptDir%\res\Settings.ini, Binds, KEY3
@@ -2886,4 +2885,5 @@ ExitApp, 0
 
 guiclose4:
 Gui, Usefull:Destroy
+
 return
