@@ -401,7 +401,6 @@ IniWrite, %Radio4%, %A_ScriptDir%\res\Settings.ini, Resolution, 1366x768
 IniWrite, %Radio5%, %A_ScriptDir%\res\Settings.ini, Resolution, 1280x960
 IniWrite, %Radio6%, %A_ScriptDir%\res\Settings.ini, Resolution, 1920x10802
 IniWrite, %Radio7%, %A_ScriptDir%\res\Settings.ini, Resolution, 1280х1024
-
 IniWrite, %Radio8%, %A_ScriptDir%\res\Settings.ini, Login Commands, /hidecheatinfo
 IniWrite, %Radio9%, %A_ScriptDir%\res\Settings.ini, Login Commands, /showcheats
 IniWrite, %Radio10%, %A_ScriptDir%\res\Settings.ini, Login Commands, /dl
@@ -2897,4 +2896,5 @@ guiclose4:
 Gui, Usefull:Destroy
 
 return
+
 
