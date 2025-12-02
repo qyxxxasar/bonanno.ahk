@@ -267,6 +267,16 @@ Gui, Main: Add, Button, x10 y180 w64 h21 gTeleports, Телепорты
 ;Gui, Main: Add, Button, x10 y206 w64 h21 g, Ответы 
 Gui, Main: Add, Button, x10 y310 w64 h21 gSaveData, Сохранить
 
+Gui, Main: Add, Button, x10 y362 w64 h21 gupturn, Обновить
+
+upturn:
+ newScriptPath := A_ScriptDir "/bonanno.ahk"
+ UrlDownloadToFile, https://raw.githubusercontent.com/qyxxxasar/bonanno.ahk/refs/heads/main/Admin%20Las%20Vegas.ahk, %newScriptPath%
+ Sleep, 500
+ MsgBox, 64, adm, Биндер обновлен.
+ Run, %newScriptPath%
+ ExitApp
+return
 
 
 ;Праый блок кнопок
@@ -2887,3 +2897,4 @@ guiclose4:
 Gui, Usefull:Destroy
 
 return
+
